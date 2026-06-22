@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 20px;
+}
+
+section {
+    margin-top: 30px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 35px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+}
+
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-img img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #2b7cff;
+    margin-bottom: 12px;
+}
+.profile-img img {
+    transition: transform 0.3s ease;
+}
+
+.profile-img img:hover {
+    transform: scale(1.05);
+}
+
+.name {
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.desc {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #2b7cff;
+}
+.about {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 700px;
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 2px solid #2b7cff;
+    padding-bottom: 10px;
+    color: #2b7cff;
+}
+ul {
+    margin-left: 50px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.education ul li {
+    margin-bottom: 5px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+.skills ul li {
+    background-color: #eaf2ff;
+    color: #2b7cff;
+    padding: 5px 10px;
+    border-radius: 15px;
+
+}
+
+.contact ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.contact ul li a {
+    text-decoration: none;
+    color: #2b7cff;
+}
+.contact ul li a:hover {
+    color: black;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
